@@ -1,0 +1,17 @@
+### correct login
+POST http://flask-lab-cong.azurewebsites.net/login
+Content-Type: application/json
+
+{
+  "username": "admin",
+  "password": "1234"
+}
+
+### error login
+POST http://flask-lab-cong.azurewebsites.net/login
+Content-Type: application/json
+
+{
+  "username": "admin",
+  "password": "wrong"
+}
